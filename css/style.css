@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+header{
+  width: 100%;
+  height: 38em;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../image/photo2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+nav{
+    height: 10vh;
+    background: white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.logo img{
+
+height:10vh;
+}
+
+nav .menu{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav .menu a {
+  width:25 %
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+main{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align:center;
+
+ color: white;
+
+
+}
+section{
+
+}
+section h3{
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+
+}
+
+section h1{
+  margin: 30px 0 20px 0;
+  font-size: 35px;
+
+ text-shadow: 2px 1px 5px black;
+ text-transform: uppercase;
+}
+
+section p{
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all .5s ease;
+}
+
+section .btnone{
+  background: white;
+  color: black;
+
+}
+
+.btnone:hover{
+  background: #1fdf5e
+
+}
+
+section .btntwo{
+  background: #007bff;
+  color: black
+
+}
+.btntwo:hover{
+  background: #2bbe8a;
+
+}
+.change_content:after{
+  content:'';
+  animation: changetext 10s infinite linear;
+color:#007bff;
+
+}
+section .p1{
+  height:20px;
+}
+
+@keyframes changetext{
+  0%{ content: "Business Innovation ";}
+  20% { content:"Cyber Security";}
+  35% { content:"Coding";}
+  60% { content: "poster";}
+  80% { content:"Ethical Haking";}
+  100%{ content:"Share IT SKILLS"; }
+}
+.container {
+    padding-left: 1px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.article-img-strip__wrap:nth-child(4n+3) {
+    background-color: #295879;
+}
+
+@media (min-width: 576px)
+.article-img-strip__wrap {
+    position: relative;
+    overflow: hidden;
+}
+@media (min-width: 992px)
+.article-img-strip__wrap {
+    min-height: 400px;
+}
+.article-img-strip__wrap {
+    background-color: #211545;
+}
+
+.article-img-strip {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.article-img-strip h2 {
+    font-size: 32px;
+    font-family: 'Josefin Sans';
+    line-height: 48px;
+    padding-top: 1px;
+    padding-bottom: 24px;
+    margin: 57px;
+    text-align: center;
+}
+
+.article-img-strip h3{
+  font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 48px;
+      padding-top: 1px;
+      padding-bottom: 24px;
+      margin: 84px;
+
+
+}
+
+h5{
+  font-size: 30px;
+      text-align: center;
+
+      line-height: unset;
+      text-orientation: unset;
+      background-color: #2e3738;
+      color: white
+}
+
+h6{
+  font-size: 14px;
+      font-family: 'Josefin Sans';
+      line-height: 35px;
+      margin: 34px;
+      margin: x;
+      margin-top: -38em;
+
+}
+.h7 img{
+margin: -17px;
+    width: 50em;
+    height: 35em;
+    margin-left: 45em;
+}
+.h10 img{
+  margin: -17px;
+      width: 50em;
+      height: 30em;
+      margin-left: 45em;
+      margin-top:-27em;
+}
+
+.footer{
+  box-shadow: 0 0 5px rgba(0,0,0,.7);
+    background-color: #211545;
+      color: #fff;
+      text-transform: uppercase;
+}
